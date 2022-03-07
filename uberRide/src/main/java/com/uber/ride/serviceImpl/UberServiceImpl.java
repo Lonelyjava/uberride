@@ -77,6 +77,7 @@ public class UberServiceImpl implements UberService {
 					uberRide.setTotalCost(totalCost);
 					uberRideDetialsReposistory.save(uberRide);
 					LOGGER.info("uber ride information has been saved ...");
+					System.out.println("uber ride get information saved ....");
 				}
 
 			} else {
